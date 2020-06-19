@@ -62,7 +62,6 @@ func (rk *RateKit) resetAll() {
 		atomic.StoreUint32(&rk.currentCount, 0)
 	}
 
-
 }
 
 func (rk *RateKit) getLimitCount() uint32 {
